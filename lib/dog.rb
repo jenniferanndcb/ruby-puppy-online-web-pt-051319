@@ -10,7 +10,9 @@ attr_reader :name
   end
   
   def self.all 
-    @@all.each do |dog_name| puts "#{@name}"
+      @@all.each do |dog_name| 
+        puts "#{@name}"
+    end 
   end
   
   def self.clear_all 
